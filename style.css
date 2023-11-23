@@ -1,0 +1,869 @@
+body {
+  font-family: Outfit;
+}
+
+@media screen and (max-width: 767px) {
+  section {
+    display: flex;
+  }
+  .mobile-background {
+    z-index: -1;
+    width: 800px;
+    height: 350px;
+    background-color: rgb(253, 239, 255);
+
+    margin-top: -100px;
+  }
+  .presentation {
+    margin-top: 170px;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 1500px;
+  }
+  aside {
+    display: flex;
+    padding-right: 100px;
+    justify-content: flex-end;
+  }
+  .icons i {
+    display: flex;
+    width: 60px;
+    height: 30px;
+    margin-bottom: 40px;
+  }
+  .title {
+    width: 1100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 0;
+    margin-top: 35px;
+  }
+  .my-name {
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-top: 0;
+  }
+  .speciality {
+    font-size: 70px;
+    margin-top: -70px;
+  }
+  .about-me {
+    font-weight: 100;
+    font-size: 40px;
+  }
+  .my-face {
+    display: flex;
+    justify-content: center;
+  }
+  .specialty-background {
+    background-color: rgba(248, 216, 157, 0.52);
+    height: 40px;
+    width: 600px;
+    margin-top: -11%;
+  }
+  .formations {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+    margin-top: 4%;
+    width: fit-content;
+  }
+  .epitech,
+  .carlone {
+    display: flex;
+  }
+  .border {
+    width: 1100px;
+    height: 2px;
+    background-color: #7c757e;
+  }
+  .date {
+    font-size: 80px;
+    font-weight: bolder;
+    color: #542265;
+    width: 300px;
+  }
+  .date:hover {
+    color: rgba(248, 216, 157, 0.52);
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+  }
+  .title-formation {
+    font-size: 40px;
+    color: #542265;
+  }
+  .description {
+    font-size: 30px;
+  }
+  .right {
+    padding-left: 5%;
+    width: 100%;
+  }
+  .experiences {
+    background-color: rgb(253, 239, 255);
+    width: 400%;
+  }
+  .title2 {
+    font-size: 50px;
+  }
+  .date2 {
+    color: #7c757e;
+    font-size: 35px;
+    margin-top: -30px;
+  }
+  .mcdo,
+  .trad {
+    margin-left: 8%;
+  }
+  .mcdo:hover,
+  .trad:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+  }
+  ul {
+    list-style: none;
+    font-size: xx-large;
+  }
+  .date2 i {
+    margin-right: 23px;
+  }
+  .title3 {
+    font-size: 80px;
+    font-weight: bolder;
+    color: #542265;
+  }
+  .projets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1460px;
+  }
+  .project-photo {
+    border-radius: 2%;
+  }
+
+  .details {
+    width: 39%;
+    text-align: center;
+    margin-top: -40px;
+  }
+  .details p {
+    margin-top: 40px;
+    font-size: 30px;
+  }
+  .details p:hover {
+    transform: scale(1.9);
+    transition: transform 0.3s ease;
+  }
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25%;
+    background-color: rgb(253, 239, 255);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 6%;
+    width: 400%;
+  }
+  .bottom h5 {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 60px;
+    color: #542265;
+    margin-top: -70px;
+    margin-right: -200px;
+    margin-bottom: 0;
+  }
+  .skills {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .design .table {
+    display: flex;
+  }
+  .design1 {
+    background-color: white;
+    padding: 6%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 10px;
+  }
+  .web {
+    margin-bottom: 10px;
+    width: 100px;
+  }
+  .design2 {
+    background-color: white;
+    padding: 6%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .development .table {
+    display: flex;
+    height: 90px;
+  }
+
+  .dev-left {
+    background-color: white;
+    padding: 6%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 10px;
+  }
+  .dev-right {
+    background-color: white;
+    padding: 6%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .languages .table {
+    display: flex;
+    background-color: white;
+    /* padding: 1%; */
+    border-radius: 10px;
+  }
+  .lang {
+    padding: 10px;
+    display: flex;
+  }
+  .table {
+    margin-left: 110px;
+  }
+  .table:hover {
+    transform: scale(1.9);
+    transition: transform 0.3s ease;
+  }
+  .vl {
+    border-left: 10px solid rgb(253, 239, 255);
+    height: auto;
+  }
+
+  .skill-title {
+    width: 17%;
+    padding-left: 20px;
+    text-align: start;
+    display: flex;
+
+    font-size: 40px;
+    font-weight: 700;
+    height: 30px;
+    margin-top: 35px;
+  }
+  #tables {
+    display: flex;
+    margin-top: 1%;
+  }
+  .skills i {
+    padding-top: 4%;
+  }
+  .passetemps h5 {
+    margin-bottom: 0;
+    color: rgb(253, 239, 255);
+    letter-spacing: 2px;
+    font-size: x-large;
+  }
+  .passetemps {
+    width: fit-content;
+    display: flex;
+    text-align: end;
+    flex-direction: column;
+    padding-right: 12%;
+    border-radius: 10% 30% 50% 70%;
+    background-color: #542265;
+
+    margin-right: 0;
+    margin-left: 900px;
+  }
+  .passetemps li {
+    color: rgb(253, 239, 255);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  section {
+    display: flex;
+  }
+  .mobile-background {
+    z-index: -1;
+    width: 800px;
+    height: 350px;
+    background-color: rgb(253, 239, 255);
+
+    margin-top: -100px;
+  }
+  .presentation {
+    margin-top: 170px;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 1500px;
+  }
+  aside {
+    display: flex;
+    padding-right: 100px;
+    justify-content: flex-end;
+  }
+  .icons i {
+    display: flex;
+    width: 60px;
+    height: 30px;
+    margin-bottom: 40px;
+  }
+  .title {
+    width: 1100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 0;
+    margin-top: 35px;
+  }
+  .my-name {
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-top: 0;
+  }
+  .speciality {
+    font-size: 70px;
+    margin-top: -70px;
+  }
+  .about-me {
+    font-weight: 100;
+    font-size: 40px;
+  }
+  .my-face {
+    display: flex;
+    justify-content: center;
+  }
+  .specialty-background {
+    background-color: rgba(248, 216, 157, 0.52);
+    height: 40px;
+    width: 600px;
+    margin-top: -11%;
+  }
+  .formations {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+    margin-top: 4%;
+    width: fit-content;
+  }
+  .epitech,
+  .carlone {
+    display: flex;
+  }
+  .border {
+    width: 1100px;
+    height: 2px;
+    background-color: #7c757e;
+  }
+  .date {
+    font-size: 80px;
+    font-weight: bolder;
+    color: #542265;
+    width: 300px;
+  }
+  .date:hover {
+    color: rgba(248, 216, 157, 0.52);
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+  }
+  .title-formation {
+    font-size: 40px;
+    color: #542265;
+  }
+  .description {
+    font-size: 30px;
+  }
+  .right {
+    padding-left: 5%;
+    width: 100%;
+  }
+  .experiences {
+    background-color: rgb(253, 239, 255);
+    width: 400%;
+  }
+  .title2 {
+    font-size: 50px;
+  }
+  .date2 {
+    color: #7c757e;
+    font-size: 35px;
+    margin-top: -30px;
+  }
+  .mcdo,
+  .trad {
+    margin-left: 8%;
+  }
+  .mcdo:hover,
+  .trad:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+  }
+  ul {
+    list-style: none;
+    font-size: xx-large;
+  }
+  .date2 i {
+    margin-right: 23px;
+  }
+  .title3 {
+    font-size: 80px;
+    font-weight: bolder;
+    color: #542265;
+  }
+  .projets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1460px;
+  }
+  .project-photo {
+    border-radius: 2%;
+  }
+
+  .details {
+    width: 39%;
+    text-align: center;
+    margin-top: -40px;
+  }
+  .details p {
+    margin-top: 40px;
+    font-size: 30px;
+  }
+  .details p:hover {
+    transform: scale(1.9);
+    transition: transform 0.3s ease;
+  }
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25%;
+    background-color: rgb(253, 239, 255);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 6%;
+    width: 400%;
+  }
+  .bottom h5 {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 60px;
+    color: #542265;
+    margin-top: -70px;
+    margin-right: -200px;
+    margin-bottom: 0;
+  }
+  .skills {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .design .table {
+    display: flex;
+  }
+  .design1 {
+    background-color: white;
+    padding: 6%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 10px;
+  }
+  .web {
+    margin-bottom: 10px;
+    width: 100px;
+  }
+  .design2 {
+    background-color: white;
+    padding: 6%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .development .table {
+    display: flex;
+    height: 90px;
+  }
+
+  .dev-left {
+    background-color: white;
+    padding: 6%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 10px;
+  }
+  .dev-right {
+    background-color: white;
+    padding: 6%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .languages .table {
+    display: flex;
+    background-color: white;
+    /* padding: 1%; */
+    border-radius: 10px;
+  }
+  .lang {
+    padding: 10px;
+    display: flex;
+  }
+  .table {
+    margin-left: 110px;
+  }
+  .table:hover {
+    transform: scale(1.9);
+    transition: transform 0.3s ease;
+  }
+  .vl {
+    border-left: 10px solid rgb(253, 239, 255);
+    height: auto;
+  }
+
+  .skill-title {
+    width: 17%;
+    padding-left: 20px;
+    text-align: start;
+    display: flex;
+
+    font-size: 40px;
+    font-weight: 700;
+    height: 30px;
+    margin-top: 35px;
+  }
+  #tables {
+    display: flex;
+    margin-top: 1%;
+  }
+  .skills i {
+    padding-top: 4%;
+  }
+  .passetemps h5 {
+    margin-bottom: 0;
+    color: rgb(253, 239, 255);
+    letter-spacing: 2px;
+    font-size: x-large;
+  }
+  .passetemps {
+    width: fit-content;
+    display: flex;
+    text-align: end;
+    flex-direction: column;
+    padding-right: 12%;
+    border-radius: 10% 30% 50% 70%;
+    background-color: #542265;
+
+    margin-right: 0;
+    margin-left: 900px;
+  }
+  .passetemps li {
+    color: rgb(253, 239, 255);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  section {
+    display: flex;
+  }
+  .presentation {
+    margin-top: 170px;
+  }
+  aside {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+    padding-top: 5%;
+  }
+  .icons i {
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 40px;
+  }
+  .icons .i:hover {
+    background-color: white;
+  }
+  .title {
+    padding-left: 13%;
+    padding-right: 10%;
+    padding-top: 4%;
+  }
+  .my-name {
+    font-size: x-large;
+    font-weight: 500;
+    letter-spacing: 3px;
+  }
+  .speciality {
+    font-size: 23px;
+  }
+  .about-me {
+    font-weight: 100;
+  }
+  .my-face {
+    padding-right: 10%;
+  }
+  .main-background {
+    z-index: -1;
+    width: 900px;
+    height: 500px;
+    margin-left: -250px;
+    margin-top: -100px;
+    background-color: #8f6068;
+  }
+  .specialty-background {
+    background-color: rgba(248, 216, 157, 0.52);
+    height: 30px;
+    width: 330px;
+    margin-top: -35px;
+  }
+  .formations {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    margin-top: 4%;
+  }
+  .epitech,
+  .carlone {
+    display: flex;
+  }
+  .border {
+    width: 1100px;
+    height: 2px;
+    background-color: #7c757e;
+  }
+  .date {
+    font-size: 60px;
+    font-weight: bolder;
+    color: #542265;
+  }
+  .date:hover {
+    color: rgba(248, 216, 157, 0.52);
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+  }
+  .title-formation {
+    font-size: x-large;
+    color: #542265;
+  }
+  .right {
+    padding-left: 5%;
+    /* padding-right: 5%; */
+    width: 50%;
+  }
+  .experiences {
+    margin-left: 10%;
+    background-color: #dfd3d4;
+  }
+  .title2 {
+    font-size: larger;
+  }
+  .date2 {
+    color: #7c757e;
+  }
+  .mcdo,
+  .trad {
+    margin-left: 13%;
+  }
+  ul {
+    list-style: none;
+  }
+  .date2 i {
+    margin-right: 23px;
+  }
+  .title3 {
+    font-size: 60px;
+    font-weight: bolder;
+    color: #542265;
+  }
+  .projets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-photo {
+    border-radius: 2%;
+  }
+  .details {
+    width: 39%;
+    text-align: center;
+    margin-top: -40px;
+  }
+  .details p {
+    margin-top: 40px;
+    /* width: 30%; */
+  }
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    background-color: #dfd3d4;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 6%;
+  }
+  .bottom h5 {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 60px;
+    color: #542265;
+    margin-top: -70px;
+    margin-right: -200px;
+    margin-bottom: 0;
+  }
+  .skills {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .design .table {
+    display: flex;
+  }
+  .design1 {
+    background-color: white;
+    padding: 6%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 10px;
+  }
+  .web {
+    margin-bottom: 10px;
+    width: 100px;
+  }
+  .design2 {
+    background-color: white;
+    padding: 6%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .development .table {
+    display: flex;
+    height: 90px;
+  }
+
+  .dev-left {
+    background-color: white;
+    padding: 6%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 10px;
+  }
+  .dev-right {
+    background-color: white;
+    padding: 6%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .languages .table {
+    display: flex;
+    background-color: white;
+    /* padding: 1%; */
+    border-radius: 10px;
+  }
+  .lang {
+    padding: 10px;
+    display: flex;
+  }
+  .vl {
+    border-left: 10px solid #dfd3d4;
+    height: auto;
+  }
+
+  .skill-title {
+    width: 17%;
+    padding-left: 20px;
+    text-align: start;
+    display: flex;
+
+    font-size: larger;
+    font-weight: 700;
+    height: 30px;
+    margin-top: 35px;
+  }
+  #tables {
+    display: flex;
+    margin-top: 1%;
+  }
+  .skills i {
+    padding-top: 4%;
+  }
+  .passetemps h5 {
+    margin-bottom: 0;
+    color: rgb(253, 239, 255);
+    letter-spacing: 2px;
+  }
+  .passetemps {
+    display: flex;
+    text-align: end;
+    flex-direction: column;
+    margin-right: 8%;
+    padding-right: 2%;
+    margin-left: 80%;
+    border-radius: 10% 30% 50% 70%;
+    background-color: #8f6068;
+    margin-top: -2%;
+  }
+  .passetemps li {
+    color: rgb(253, 239, 255);
+  }
+  .passetemps:hover {
+    /* transform: rotate(90deg); */
+  }
+}
+
+.parent-div {
+  width: 317px;
+  height: 317px;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.FRAME-1-2 {
+  transform: rotate(0deg);
+  position: relative;
+  width: 317px;
+  height: 317px;
+  left: 0px;
+  top: 0px;
+  opacity: 1;
+  overflow: hidden;
+  /* background: rgb(25, 22, 57); */
+}
+.FRAME-1-3 {
+  transform: rotate(0deg);
+  position: absolute;
+  width: 178px;
+  height: 90px;
+  left: 69px;
+  top: 113px;
+  opacity: 1;
+  overflow: hidden;
+  background: rgba(117, 147, 238, 1);
+  border-radius: 100px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+.ELLIPSE-1-4 {
+  position: absolute;
+  left: 89px;
+  top: 5px;
+  transform: rotate(0deg);
+  transform-origin: center !important;
+  background: rgba(242, 232, 131, 1);
+
+  border-radius: 50%;
+
+  width: 80px;
+  height: 80px;
+  opacity: 1;
+  clip-path: url(#id-Ellipse1-31-Frame2-31-Frame1-svgpath);
+}
