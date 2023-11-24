@@ -10,7 +10,7 @@ body {
     z-index: -1;
     width: 800px;
     height: 350px;
-    background-color: rgb(253, 239, 255);
+    background-color: #8f6068;
 
     margin-top: -100px;
   }
@@ -101,7 +101,7 @@ body {
     width: 100%;
   }
   .experiences {
-    background-color: rgb(253, 239, 255);
+    background-color: #dfd3d4;
     width: 400%;
   }
   .title2 {
@@ -160,7 +160,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 25%;
-    background-color: rgb(253, 239, 255);
+    background-color: #dfd3d4;
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 6%;
@@ -273,7 +273,7 @@ body {
     flex-direction: column;
     padding-right: 12%;
     border-radius: 10% 30% 50% 70%;
-    background-color: #542265;
+    background-color: #8f6068;
 
     margin-right: 0;
     margin-left: 900px;
@@ -382,7 +382,7 @@ body {
     width: 100%;
   }
   .experiences {
-    background-color: rgb(253, 239, 255);
+    background-color: #dfd3d4;
     width: 400%;
   }
   .title2 {
@@ -441,7 +441,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 25%;
-    background-color: rgb(253, 239, 255);
+    background-color: #dfd3d4;
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 6%;
