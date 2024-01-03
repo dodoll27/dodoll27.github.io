@@ -26,11 +26,37 @@ body {
   .desktop {
     display: none;
   }
+
   .bio {
     flex-direction: column-reverse;
   }
-  .fa-phone {
+
+  .phone {
     display: none;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 10%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #685188;
+    width: 120px;
+    height: 25px;
+    color: #ffffff;
+    font-size: 15px;
+  }
+  .phone p {
+    margin: 0;
+    padding: 0;
+  }
+  .phone button {
+    margin-top: 5%;
+  }
+  .fa-phone {
+    cursor: pointer;
+  }
+  .fa-phone:hover + .phone {
+    display: block;
   }
   .my-name {
     text-transform: uppercase;
@@ -303,6 +329,33 @@ body {
   .desktop {
     display: none;
   }
+  .phone {
+    display: none;
+    position: absolute;
+    margin-left: 110%;
+    margin-top: -3%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #685188;
+    width: 120px;
+    height: 25px;
+    color: #ffffff;
+    font-size: 15px;
+  }
+  .phone p {
+    margin: 0;
+    padding: 0;
+  }
+  .phone button {
+    margin-top: 10%;
+  }
+  .fa-phone {
+    cursor: pointer;
+  }
+  .fa-phone:hover + .phone {
+    display: block;
+  }
   .icons {
     display: flex;
     position: absolute;
@@ -554,6 +607,37 @@ body {
     font-size: x-large;
     padding-top: 2%;
   }
+  .phone {
+    display: none;
+    position: absolute;
+    margin-left: 100%;
+    margin-top: 20%;
+    margin-left: 10%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #685188;
+    width: 120px;
+    height: 25px;
+    color: #ffffff;
+    font-size: 15px;
+  }
+  .phone p {
+    margin: 0;
+    padding: 0;
+  }
+  .phone button {
+    margin-top: 10%;
+  }
+  .fa-phone {
+    cursor: pointer;
+
+    /* width: 100px; */
+  }
+  .fa-phone:hover + .phone {
+    display: block;
+  }
+
   aside {
     display: flex;
     flex-direction: column;

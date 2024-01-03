@@ -1,3 +1,4 @@
+import React from "react";
 import project_photo from "../images/project-photo.png";
 import api_photo from "../images/api-photo.png";
 
